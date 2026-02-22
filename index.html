@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Motors | The Future of Supreme Driving</title>
+    <meta name="description" content="Experience the zenith of luxury, performance, and innovation with Aurora Motors. Explore our latest futuristic and premium car models.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <h1>AURORA<span>.</span></h1>
+            </div>
+            <nav class="nav-links">
+                <a href="#models">Models</a>
+                <a href="#journey">Purchase</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#support">Support</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="btn-outline">Find Dealer</button>
+                <button class="btn-primary">Book Demo</button>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/hero_car.png" alt="Aurora Luxury Sports Car" class="hero-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
+            <h2 class="hero-subtitle">The New G-Series</h2>
+            <h1 class="hero-title">AERODYNAMIC<br>PERFECTION</h1>
+            <p class="hero-desc">Discover the ultimate driving machine. Engineered for speed, infused with luxury, and electrified for the future.</p>
+            <div class="hero-buttons">
+                <a href="#models" class="btn-primary btn-large">Explore Models <i class="fas fa-arrow-right"></i></a>
+                <a href="#journey" class="btn-outline btn-large">Build Your Own</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Highlights -->
+    <section class="performance-ticker smooth-reveal">
+        <div class="container ticker-container">
+            <div class="ticker-item">
+                <span class="ticker-val">0-60 mph</span>
+                <span class="ticker-label">in 2.9 seconds</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-val">650 hp</span>
+                <span class="ticker-label">Peak Power</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-val">420 mi</span>
+                <span class="ticker-label">Electric Range</span>
+            </div>
+            <div class="ticker-item">
+                <span class="ticker-val">Level 3</span>
+                <span class="ticker-label">Autonomy Built-In</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Models Section -->
+    <section class="section models-section" id="models">
+        <div class="container">
+            <div class="section-header center">
+                <h3 class="section-subtitle">Our Fleet</h3>
+                <h2 class="section-title">The Masterpieces</h2>
+                <div class="divider"></div>
+            </div>
+            
+            <div class="models-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sedan">Sedan</button>
+                <button class="filter-btn" data-filter="suv">SUV</button>
+                <button class="filter-btn" data-filter="ev">Electric</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="luxury">Luxury</button>
+            </div>
+
+            <div class="models-grid">
+                <!-- SUV Card -->
+                <div class="car-card smooth-reveal filter-item suv luxury" tabindex="0">
+                    <div class="card-img-wrapper">
+                        <img src="assets/white_suv.png" alt="Aurora X-Line SUV">
+                        <div class="badge">New</div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Aurora X-Line SUV</h4>
+                        <p class="price">From $84,500</p>
+                        <div class="specs-mini">
+                            <span><i class="fas fa-bolt"></i> 520 hp</span>
+                            <span><i class="fas fa-gas-pump"></i> 24 MPG</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-primary btn-sm">Explore</button>
+                            <button class="btn-text">Compare <i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sedan Card -->
+                <div class="car-card smooth-reveal filter-item sedan ev">
+                    <div class="card-img-wrapper">
+                        <img src="assets/blue_sedan.png" alt="Aurora i7 Sedan">
+                        <div class="badge">Electric</div>
+                    </div>
+                    <div class="card-info">
+                        <h4>Aurora i7 Sedan</h4>
+                        <p class="price">From $119,300</p>
+                        <div class="specs-mini">
+                            <span><i class="fas fa-charging-station"></i> 400 mi</span>
+                            <span><i class="fas fa-stopwatch"></i> 3.5s</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-primary btn-sm">Explore</button>
+                            <button class="btn-text">Compare <i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sports Card -->
+                <div class="car-card smooth-reveal filter-item sports luxury">
+                    <div class="card-img-wrapper">
+                        <img src="assets/sports_gt.png" alt="Aurora M-GT">
+                    </div>
+                    <div class="card-info">
+                        <h4>Aurora M-GT</h4>
+                        <p class="price">From $145,000</p>
+                        <div class="specs-mini">
+                            <span><i class="fas fa-tachometer-alt"></i> 201 mph</span>
+                            <span><i class="fas fa-cogs"></i> V8 Twin</span>
+                        </div>
+                        <div class="card-actions">
+                            <button class="btn-primary btn-sm">Explore</button>
+                            <button class="btn-text">Compare <i class="fas fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="center mt-4">
+                <button class="btn-outline">View Complete Lineup</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 360 & Configurator Teaser -->
+    <section class="section dark-bg" id="configurator">
+        <div class="container config-flex">
+            <div class="config-text smooth-reveal left-reveal">
+                <h3 class="section-subtitle">Make It Yours</h3>
+                <h2 class="section-title">Immersive 360° Studio</h2>
+                <p>Tailor every detail of your Aurora. From meticulously crafted leather stitching to bespoke metallic finishes. Experience your custom build in real-time 3D before it reaches the production line.</p>
+                <ul class="check-list">
+                    <li><i class="fas fa-check"></i> Choose from 50+ exterior colors</li>
+                    <li><i class="fas fa-check"></i> Interior trims and premium materials</li>
+                    <li><i class="fas fa-check"></i> Interactive lighting demonstration</li>
+                </ul>
+                <button class="btn-primary mt-3">Launch Configurator</button>
+            </div>
+            <div class="config-visual smooth-reveal right-reveal">
+                <img src="assets/hero_car.png" alt="360 Configurator" class="mockup-img">
+                <div class="color-palette">
+                    <div class="color-swatch" style="background:#000;" title="Obsidian Black"></div>
+                    <div class="color-swatch" style="background:#f1f1f1;" title="Alpine White"></div>
+                    <div class="color-swatch" style="background:#7f8c8d;" title="Metallic Grey"></div>
+                    <div class="color-swatch" style="background:#0a3d62;" title="Tanzanite Blue"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Buying Journey -->
+    <section class="section journey-section" id="journey">
+        <div class="container">
+            <div class="section-header center">
+                <h3 class="section-subtitle">Ownership</h3>
+                <h2 class="section-title">The Buying Journey</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="journey-steps">
+                <div class="step smooth-reveal">
+                    <div class="step-icon"><i class="fas fa-car-side"></i></div>
+                    <h4>1. Select Model</h4>
+                    <p>Browse our extensive fleet and find the chassis that resonates with your spirit.</p>
+                </div>
+                <div class="step-line smooth-reveal"></div>
+                <div class="step smooth-reveal">
+                    <div class="step-icon"><i class="fas fa-palette"></i></div>
+                    <h4>2. Customize</h4>
+                    <p>Engage with our 360° studio to detail out features, tints, rims, and interior trims.</p>
+                </div>
+                <div class="step-line smooth-reveal"></div>
+                <div class="step smooth-reveal">
+                    <div class="step-icon"><i class="fas fa-key"></i></div>
+                    <h4>3. Book Test Drive</h4>
+                    <p>Schedule an evaluation block at your nearest boutique to feel the power yourself.</p>
+                </div>
+                <div class="step-line smooth-reveal"></div>
+                <div class="step smooth-reveal">
+                    <div class="step-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                    <h4>4. Finance & Buy</h4>
+                    <p>Flexible leasing and financing seamlessly integrated into a digital sign-off.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features-section" id="features">
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-box smooth-reveal">
+                    <i class="fas fa-microchip fa-3x"></i>
+                    <h3>Intelligent Tech</h3>
+                    <p>An AI-powered infotainment system that learns your preferences, controls cabin climate, and calculates optimal predictive routing.</p>
+                </div>
+                <div class="feature-box smooth-reveal">
+                    <i class="fas fa-shield-alt fa-3x"></i>
+                    <h3>Active Safety</h3>
+                    <p>Military-grade sensor array offering 360-degree collision avoidance, lane keep assist, and automated emergency braking.</p>
+                </div>
+                <div class="feature-box smooth-reveal">
+                    <i class="fas fa-road fa-3x"></i>
+                    <h3>Dynamic Drive</h3>
+                    <p>Adaptive air suspension reacting in milliseconds to road conditions to ensure an unparalleled smooth magic carpet ride.</p>
+                </div>
+                <div class="feature-box smooth-reveal">
+                    <i class="fas fa-plug fa-3x"></i>
+                    <h3>Rapid Charging</h3>
+                    <p>800V architecture enabling 10% to 80% charge in just 18 minutes. Sustainable energy without the wait.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & History -->
+    <section class="section about-section" id="about">
+        <div class="container about-flex">
+            <div class="about-visual smooth-reveal left-reveal">
+                <img src="assets/interior.png" alt="Aurora Interior" class="mockup-img">
+            </div>
+            <div class="about-text smooth-reveal right-reveal">
+                <h3 class="section-subtitle">Heritage</h3>
+                <h2 class="section-title">Engineering Excellence</h2>
+                <div class="divider left"></div>
+                <p>Born from a relentless pursuit of perfection, Aurora Motors has redefined luxury movement for decades. From tracks to cityscapes, our philosophy melds raw power with uncompromising elegance.</p>
+                <p>We are pioneering the shift towards zero-emission dynamics. By 2030, our entire lineup will leverage sustainable materials and solid-state battery technology, ensuring a greener footprint without sacrificing the thrill of the drive.</p>
+                <button class="btn-outline mt-2">Read Our Story</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Support / Footer -->
+    <footer class="footer" id="support">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-col brand-col">
+                    <h2>AURORA<span>.</span></h2>
+                    <p>The ultimate expression of power and luxury. Subscribe to our newsletter for exclusive unveils.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="footer-col">
+                    <h4>Vehicles</h4>
+                    <a href="#">SUVs</a>
+                    <a href="#">Sedans</a>
+                    <a href="#">Coupes</a>
+                    <a href="#">Electrified</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Find a Dealer</a>
+                    <a href="#">Warranty Info</a>
+                    <a href="#">Service Centers</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aurora Motors Inc. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Live Chat Widget Idea -->
+        <div class="live-chat-widget">
+            <button class="chat-btn"><i class="fas fa-comment-dots"></i></button>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
