@@ -50,16 +50,6 @@ The main goal of this project is to practice **advanced frontend layouts, animat
 
 ---
 
-## 📂 Project Structure
-
-```
-index.html      → Main webpage structure  
-style.css       → Complete styling and responsive design  
-script.js       → Interactivity, animations, filtering logic  
-assets/         → Images and media resources  
-```
-
----
 
 ## ⚙️ JavaScript Functionalities
 
